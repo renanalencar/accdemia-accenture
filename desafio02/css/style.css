@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,8 +37,13 @@ footer {
   justify-content: center;
 }
 
+.title {
+  font-family: "Staatliches", sans-serif;
+  font-size: 48px;
+}
+
 .container {
-  max-width: 80%;
+  /* max-width: 80%; */
   margin: 0 auto;
 }
 
@@ -59,15 +66,15 @@ footer {
 }
 
 .bg-img--version--1 {
-  background-image: url("https://www.bykamy.com.br/media/magpleasure/mpblog/upload/5/7/57b1bf7d80506c13b5a9d9ad3aaf491c.jpg");
+  background-image: url("https://conteudo.imguol.com.br/c/noticias/7d/2020/03/13/universo-espaco-planetas-galaxias-1584120766031_v2_1280x720.jpg");
 }
 
 .bg-img--version--2 {
-  background-image: url("https://static.demilked.com/wp-content/uploads/2010/08/gabriel-wickbold-thumb640.jpg");
+  background-image: url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/MON_318122_KV_Astronaut_QUER_0.jpg?w=1600");
 }
 
 .bg-img--version--3 {
-  background-image: url("https://cdn.thecoolist.com/wp-content/uploads/2010/02/sexual-color-by-gabriel-wickbold_8-345x200.jpeg");
+  background-image: url("https://exame.com/wp-content/uploads/2020/09/Vida-subterranea-em-marte.jpg");
 }
 
 .container-header {
@@ -123,7 +130,7 @@ footer {
   padding: 15px 5px 5px 15px;
   height: 250px;
   width: 80px;
-  background: #9000c5;
+  background: #f23041;
   border-radius: 0px 15px 15px 0px;
   display: grid;
   z-index: 3;
@@ -134,7 +141,7 @@ footer {
   position: fixed;
   right: 10px;
   bottom: 10px;
-  background-color: #fb00ca;
+  background-color: #f2a03d;
   border-radius: 100px;
   padding: 10px;
   width: 40px;
@@ -144,7 +151,7 @@ footer {
 }
 
 .content-top--button:hover {
-  background-color: #9000c5;
+  background-color: #f2e205;
   transition: 1s;
 }
 
@@ -162,6 +169,7 @@ i {
 .flex-item--2 {
   flex: 2;
   margin: 2px;
+  padding-left: 20px;
 }
 
 .flex-item--3 {
@@ -177,22 +185,16 @@ i {
   text-align: center;
 }
 
-.bg-color--purple {
-  background-color: #9000c5;
+.text-justify {
+  text-align: justify;
+}
+
+.bg-color--1 {
+  background-color: #a60a33;
   color: #fff;
 }
 
-.bg-color--yellow {
-  background-color: #ffff00;
-  color: #005eff;
-}
-
-.bg-color--pink {
-  background-color: #fb00ca;
-  color: #fff;
-}
-
-.bg-color--blue {
-  background-color: #005eff;
+.bg-color--black {
+  background-color: #000;
   color: #fff;
 }
