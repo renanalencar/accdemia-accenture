@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Staatliches", sans-serif;
+  font-size: 48px;
+}
+
+.container {
+  /* max-width: 80%; */
+  margin: 0 auto;
+}
+
+.container-paralax {
+  height: 100vh;
+  display: flex;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-paralax--data {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-img--version--1 {
+  background-image: url("https://conteudo.imguol.com.br/c/noticias/7d/2020/03/13/universo-espaco-planetas-galaxias-1584120766031_v2_1280x720.jpg");
+}
+
+.bg-img--version--2 {
+  background-image: url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/MON_318122_KV_Astronaut_QUER_0.jpg?w=1600");
+}
+
+.bg-img--version--3 {
+  background-image: url("https://exame.com/wp-content/uploads/2020/09/Vida-subterranea-em-marte.jpg");
+}
+
+.container-header {
+  text-align: center;
+}
+
+.content-flex {
+  display: flex;
+}
+
+.content-flexgrid {
+  display: grid;
+}
+
+.content-flex--direction {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex: 1;
+  margin: 2px;
+  width: 33%;
+  justify-content: center;
+}
+
+.content-flex--reverse {
+  flex-direction: row-reverse;
+}
+
+.content-space--default {
+  padding: 20px;
+  margin: 2;
+  border-radius: 5px;
+}
+
+.content-justify {
+  justify-content: center;
+}
+
+.content-justify--bt {
+  justify-content: space-around;
+}
+
+.content-align {
+  align-items: flex-start;
+}
+
+/* left main */
+.content-left--main {
+  position: fixed;
+  left: 0px;
+  top: 30%;
+  padding: 15px 5px 5px 15px;
+  height: 250px;
+  width: 80px;
+  /* background: #f23041; */
+  border-radius: 0px 15px 15px 0px;
+  display: grid;
+  z-index: 3;
+  box-shadow: 13px 7px 34px -12px rgba(0, 0, 0, 0.75);
+}
+
+.content-top--button {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: #f2a03d;
+  border-radius: 100px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  transition: 1s;
+}
+
+.content-top--button:hover {
+  background-color: #f2e205;
+  transition: 1s;
+}
+
+i {
+  font-size: 40px;
+  color: #fff;
+}
+
+/* flex item */
+.flex-item--1 {
+  flex: 1;
+  margin: 2px;
+}
+
+.flex-item--2 {
+  flex: 2;
+  margin: 2px;
+  padding-left: 20px;
+}
+
+.flex-item--3 {
+  flex: 3;
+  margin: 2px;
+}
+
+.content-default {
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.bg-color--1 {
+  background-color: #a60a33;
+  color: #fff;
+}
+
+.bg-color--black {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 480px) {
+  .content-flex {
+    display: flow-root;
+  }
+
+  .flex-wrap {
+    width: 100%;
+  }
+}
+
+/* @media only screen and (min-width: 600px) {
+  .bg-color--blue {
+    background-color: #435740;
+    color: #ffff00;
+  }
+} */
+
+@media only screen and (min-width: 1024px) {
+  /* .container {
+    max-width: 60%;
+  } */
+
+  .bg-color--1 {
+    background-color: #ffa500;
+    color: #000;
+  }
+}
